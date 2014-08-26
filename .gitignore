@@ -1,0 +1,18 @@
+# Unity
+Library/*
+Temp/*
+
+# Unity Mono develop
+*.suo
+*.user
+*.pidb
+*.userprefs
+Assembly-*.csproj
+Assembly-*.unityproj
+*.sln
+
+# Mac OS X
+.DS_Store
+
+# Windows
+thumbs.db
