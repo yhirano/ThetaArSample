@@ -1,8 +1,16 @@
 ﻿using UnityEngine;
-using System.Collections;
 
 [RequireComponent(typeof(Camera))]
 public class GyroCameraController : MonoBehaviour {
+
+	void Start () {
+		// It is necessary to explicitly enable the gyro in Android.
+		if (SystemInfo.supportsGyroscope) {
+			Input.gyro.enabled = true;
+		} else {
+			Debug.Log("Gyro is not supported.");
+		}
+	}
 
 	void Update () {
 		Quaternion gyro = Input.gyro.attitude;
