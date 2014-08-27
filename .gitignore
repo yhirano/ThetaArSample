@@ -1,6 +1,6 @@
 # Unity
-Library/*
-Temp/*
+*/Library/*
+*/Temp/*
 
 # Unity Mono develop
 *.suo
