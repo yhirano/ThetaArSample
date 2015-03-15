@@ -8,7 +8,7 @@ public class GyroCameraController : MonoBehaviour {
 		if (SystemInfo.supportsGyroscope) {
 			Input.gyro.enabled = true;
 		} else {
-			Debug.Log("Gyro is not supported.");
+			UIController.Instance.MessageBoxText = "Gyroscope is not supported.";
 		}
 	}
 
