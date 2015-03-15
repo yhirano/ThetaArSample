@@ -4,7 +4,7 @@ Sample app of AR viewer for photo taked [Ricoh Theta](https://theta360.com/en/).
 
 ## Develop environment
 
-* Unity3D 4.5.3f3 (Free version)
+* Unity3D 5.0.0f4 (Free version)
 
 ## Reference
 

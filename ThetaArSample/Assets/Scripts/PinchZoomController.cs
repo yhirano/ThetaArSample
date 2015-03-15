@@ -21,9 +21,9 @@ public class PinchZoomController : MonoBehaviour {
 
 			float deltaMagnitudeDiff = prevTouchDeltaMagnitude - touchDeltaMagnitude;
 
+			Camera camera = GetComponent<Camera>();
 			camera.fieldOfView += deltaMagnitudeDiff * zoomSpeed;
-			
 			camera.fieldOfView = Mathf.Clamp(camera.fieldOfView, minFov, maxFov);
-		}	
+		}
 	}
 }
